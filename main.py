@@ -10,3 +10,16 @@ screen.addshape(image)              # It adds new shape to the existing types of
 #turtle = turtle.Turtle
 
 turtle.shape(image)
+
+title = "Guess the State"
+
+state_data = pandas.read_csv("50_states.csv")     # Dataframe
+states = state_data["state"]
+states_list = states.to_list()
+
+my_turtle = turtle.Turtle()
+my_turtle.penup()
+my_turtle.hideturtle()
+
+score = 0
+shall_continue = True
