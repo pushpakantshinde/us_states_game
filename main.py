@@ -11,22 +11,6 @@ screen.addshape(image)              # It adds new shape to the existing types of
 
 turtle.shape(image)
 
-# #-----------------------------------------------------------------------------------------------------------------------
-# def get_mouse_click_coor(x, y):
-#     print(x, y)
-#
-# # We want the coordinates for all states by clicking on it and then prepare the data file but in our case all data is
-# # already given in '50_states.csv' file
-#
-# turtle.onscreenclick(get_mouse_click_coor)
-#
-# turtle.mainloop()           # keep the screen open even after clicking on it
-# #-----------------------------------------------------------------------------------------------------------------------
-
-
-# answer_state = screen.textinput(title="Guess the State", prompt="What's another state's name?")
-# answer_state_capital = answer_state.title()
-# print(answer_state_capital)
 
 title = "Guess the State"
 
